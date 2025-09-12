@@ -2,26 +2,27 @@ body, * {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
     font-family: Arimo;
 }
 body {
-    background-color: rgb(74, 152, 224);
+    background-color: rgb(11, 55, 95);
 }
 
 h1 {
-    font-size: 2.986rem;
+    font-size: 4rem;
 }
 h2 {
     font-size: 2.488rem;
 }
  
 .section {
-    margin: 100px 200px;
-    border: 2px dashed rgb(3, 46, 68);
-    background-color: #00b4d8;
+    margin: 60px 650px;
+    background-color: rgb(104, 140, 173);
+    border: 2px solid rgb(203, 223, 233);
     border-radius: 10px;
+    padding: 50px;
 }
 
 a {
@@ -29,7 +30,25 @@ a {
 }
 
 .top {
-    background-color: rgb(75, 151, 223);
+
     border-bottom: 1px solid black;
     padding: 10px;
+    background-color:rgb(104, 140, 173);;
+    color: rgb(31, 34, 36);
+}
+
+.section-image { 
+    margin: 50px 0;
+}
+
+.section-link {
+    margin: 50px 0;
+}
+
+.section-text {
+    font-size: 1;
+}
+
+.section h1 {
+    font-size: 100
 }
