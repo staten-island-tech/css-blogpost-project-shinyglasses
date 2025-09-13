@@ -19,7 +19,7 @@ h2 {
 }
  
 .section {  
-    margin: 60px 15vw;    
+    margin: 60px 20vw;  
     background-color: rgb(104, 140, 173);
     border: 2px solid rgb(203, 223, 233);
     border-radius: 10px;
@@ -62,16 +62,10 @@ img {
     font-size: 1.44rem;
 }
 
-#section__image--one {
-    order: 0;
-}
 
 #section__image--two {
     order: 1;
 } 
-#section__image--three {
-    order: 0;
-}
 
 .row {
     display: flex;
