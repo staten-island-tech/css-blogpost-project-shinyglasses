@@ -2,12 +2,13 @@ body, * {
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    font-size: 15px;
+    font-size: 30px;
     text-align: center;
     font-family: Arimo;
+    color: #03045e;
 }
 body {
-    background-color: rgb(11, 55, 95);
+    background-color: #32506d;
 }
 
 h1 {
@@ -30,25 +31,51 @@ a {
 }
 
 .top {
-
     border-bottom: 1px solid black;
     padding: 10px;
-    background-color:rgb(104, 140, 173);;
-    color: rgb(31, 34, 36);
+    background-color: rgb(104, 140, 173);
+    color: rgb(31, 34, 36); 
 }
 
-.section-image { 
+.section__image { 
+    margin: 100px 0;
+}
+
+.section__link {
     margin: 50px 0;
 }
 
-.section-link {
-    margin: 50px 0;
+img {
+    width: 400px;
+    height: 400px;
+    /* since i changed both width and height, the image ratios are distorted 
+    BUT i dont think it looks bad and changing the ratio made the images look  nicer next to the text
+    */
+    border-radius: 50px;
 }
 
-.section-text {
-    font-size: 1;
+#whalenlink {
+    /* indeed mikewhalen.tech was very useful */        
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    font-size: 1.44rem;
 }
 
-.section h1 {
-    font-size: 100
+#section__image--one {
+    order: 0;
+}
+
+#section__image--two {
+    order: 1;
+} 
+#section__image--three {
+    order: 0;
+}
+
+.row {
+    display: flex;
+    margin: 50px;
+    gap: 50px;  
+    align-items: center
 }
